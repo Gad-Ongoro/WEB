@@ -53,11 +53,15 @@ body{
     float: left;
 }
 .sidebar ul{
+    display:flex;
+    flex-direction:column;
     list-style-type: none;
     padding: 0;
     margin: 0;
     color:rgb(0, 0, 0);
     background-color: rgb(157, 188, 255);
+    overflow: auto;
+    height:300px;
 }
 
 .sidebar li a{
