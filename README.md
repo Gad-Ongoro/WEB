@@ -1,1 +1,1 @@
-A collection of my projects
+A collection of projects
