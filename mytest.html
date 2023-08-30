@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charsert="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            Practice
+        </title>
+
+        <link rel="icon" href="https://i.pinimg.com/236x/95/43/06/9543060b958eda6f6df4c694c621b0a7.jpg">
+
+        <style>
+            body{
+                background-color:rgb(210, 240, 240);
+                font-family: Tahoma;
+            }
+            h1{
+                font-family: 'Lucida Sans Unicode';
+            }
+            div {
+                text-align: center;
+                width : 80% ;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgb(189, 217, 221);
+            }
+            .images p {
+                display: inline-block;
+            }
+        </style>
+ 
+    </head>
+
+    <body>
+        <div>
+        <h1> <u><b>Your Dream Car</b></u> </h1>
+
+        <!--start of images-->
+        <section class="images">
+        <p>
+            <img title="Lamborghini" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFvIMDjnjeM4Ab82Gv1Q0YrSOpgB6VwuhXg&usqp=CAU" alt="Lamborghini">
+        
+            <input type="radio" id="cn1"> <label for="cn1"> Lamborghini </label>        
+        </p>
+
+        <p>
+            <img title="McLaren" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVkdplbZw2VhgdcKjDd569ouhUW2CuhXonw&usqp=CAU" alt="McLaren">
+        
+            <input type="radio" id="cn2"> <label for="cn2"> McLaren </label>  
+        </p>
+        
+        <p>
+            <img title="Porche" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52OwPsw0HIu2jxjnbGB2MR4L3zyNnh0zlQg&usqp=CAU" alt="Porche">
+        
+            <input type="radio" id="cn3"> <label for="cn3"> Porche </label> 
+        </p>
+
+        <p>
+        <img title="Ford Mustang" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDw2mFcEbtViy8UOXCl-F2O05ehVd-eFcCzw&usqp=CAU" alt="Ford Mustang">
+         
+             <input type="radio" id="cn4"> <label for="cn4"> Ford Mustang </label>
+        </p>
+        </section>
+        <!--end of images-->
+
+        <h4 style="color:green;"> <u>Billing Information:</u> </h4>
+        
+        <!--start of a dropdown menu-->
+        <label for="pm">Payement Method:</label>
+        <select id="pm">
+            <option>Cash</option>
+            <option>Card</option>
+        </select> <br> <br>
+        <!--end of a dropdown menu-->
+        
+        <p style="color:royalblue">For Card Payments:</p>
+        <form>
+        <input type="checkbox" id="cb1">
+        <label for="cb1">Credit Card</label> <br>
+        <input type="checkbox" id="cb2">
+        <label for="cb2">Debit Card</label> <br> <br>
+        
+        <p style="color:royalblue">Card Details:</p>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" required> <br> <br>
+        <label for="sname">Second Name:</label>
+        <input type="text" id="sname"> <br> <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname"> <br> <br>
+        
+        <label for="cn">Card Number:</label>
+        <input type="text" id="cn"> <br> <br>
+        
+        <input type="submit" style="color:rgb(70, 68, 212);">
+        
+        </form> <br>
+        
+        <button style="color:blue;"> <b>BUY</b> </button>
+        
+        <p id="vroom"> </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gad Ongoro</title>
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            /* body */
+            body{
+                background-color: rgb(10, 20, 70);
+                margin: 0;
+            }
+
+            /* header */
+            .header{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                overflow: auto;
+            }
+            .header a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                display: block;
+                text-align: center;
+            }
+            .header .dp-name-div{
+                padding: 5px;
+                margin-left:25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .header .dp-div{
+                margin-right: 15px;
+            }
+            .header .name-div{
+                font-size: 15px;
+            }
+
+            /* header navigation list*/
+            .nav-div{
+                margin-right: 5px;
+            }
+            .nav-div ul{
+                list-style-type: none;
+            }
+            .nav-div li{
+                float: left;
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-right: 50px;
+            }
+            .nav-div a{
+                text-align: center;
+                width: 70px;
+                height: 40px;
+            }
+
+            /*main*/
+            .main{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            .about-container{
+                background-color: white;
+            }
+            .about{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 90%;
+                margin: auto;
+                border: 1px solid white;
+            }
+            .about code{
+                color: black;
+                padding: 10px;
+            }
+            .div-gif img{
+                width: 250px;
+            }
+
+            /* skills */
+            .expertise{
+                width: 95%;
+                color:white;
+                display: flex;
+                justify-content: space-between;
+                margin: auto;
+            }
+            .html, .css, .javascript{
+                width:30%;
+            }
+
+            /* footer */
+            .footer{
+                color: white;
+            }
+
+            /* media queries */
+            @media screen and (max-width: 800px){
+                .dp-name-div{
+                    flex-direction: column;
+                }
+                .header{
+                    flex-direction: column;
+                }
+                .about{
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .expertise{
+                    width: 100%;
+                    flex-direction: column;
+                }
+                .html, .css, .javascript{
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+        </style>
+    </head>
+
+<!-- Body -->
+
+    <body>
+        <div class="header">
+
+            <div class="dp-name-div">
+                <div class="dp-div">
+                    <a href="">
+                        <img src="images\DP3.jpg" style="width:110px; border-radius:50%;">
+                    </a>
+                </div>
+               
+                <div class="name-div">    
+                    <h2> <a href="">Gad Ongoro </a> </h2>
+                </div>
+            </div>
+
+            <div class="nav-div">
+                <ul>
+                    <li> <a href="#"> Home </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#expertise"> Expertise </a> </li>
+                    <li> <a href="#projects"> Projects </a> </li>
+                    <li> <a href="#work"> Work </a> </li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- main -->
+        <div class="main">
+
+            <div class="about-container">
+                <div class="about" id="about">
+
+                    <div class="div-gif">
+                        <img src="GIFs and Animations\JavaScript frameworks.gif" alt="Hello World!">
+                    </div>
+
+                    <div class="overview">
+                        <code>
+                            👋 I'm Gad, a dedicated junior front-end developer. 
+                            Passionate about crafting user-friendly web experiences using HTML, CSS, and JavaScript.
+                            Eager learner, collaborator, and UI/UX enthusiast. Let's connect and build the web together! 🚀
+                        </code>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="expertise" id="expertise">
+
+                <div class="html">
+                    <h3>
+                        <code>HTML</code>
+                    </h3>
+                    <p> 
+                        I excel in crafting semantically structured and responsive web pages that adhere to W3C standards.
+                        My expertise extends to creating clean and well-commented HTML5 code, ensuring cross-browser compatibility and accessibility for diverse user experiences.
+                        I also demonstrate a deep understanding of HTML forms, multimedia integration, and the use of meta tags for SEO optimization. 
+                    </p>
+                </div>
+
+                <div class="css">
+                    <h3>
+                        <code>CSS</code>
+                    </h3>
+                    <p>
+                        I demonstrate proficiency in CSS3, using it to create visually appealing layouts, stylish typography, and seamless animations. 
+                        My skills include crafting pixel-perfect designs, ensuring cross-browser compatibility, and optimizing websites for various devices.
+                        I also excel in CSS frameworks like Bootstrap and CSS preprocessors like SASS, enhancing my ability to streamline development.
+                    </p>
+                </div>
+
+                <div class="javascript">
+                    <h3>
+                        <code>JavaScript</code>
+                    </h3>
+                    <p>
+                        I excel in using JavaScript to manipulate the Document Object Model (DOM), creating responsive user interfaces and enhancing user experiences.
+                        My expertise extends to working with modern frameworks like React and Vue.js, as well as utilizing asynchronous programming techniques with Promises and Async/Await.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="projects" id="projects"></div>
+
+            <div class="work" id="work"></div>
+
+            <div class="contact" id="contact"></div>
+
+
+        </div>
+
+        <div class="footer">
+            <p> &copy Gad Ongoro </p>
+            
+        </div>
+
+    </body>
+</html>
