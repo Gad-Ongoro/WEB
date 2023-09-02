@@ -116,12 +116,28 @@
             .javascript code{
                 color: aqua;
             }
+            
+            /* contact */
+            .contact{
+                display: flex;
+                justify-content: center;
+            }
+            .socials{
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+            }
 
             /* footer */
             .footer{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-direction: column;
+                color: white;
+            }
+            .footer a{
+                text-decoration: none;
                 color: white;
             }
 
@@ -151,6 +167,9 @@
                 .html, .css, .javascript{
                     width: 80%;
                     margin: auto;
+                }
+                .socials{
+                    width: 85%;
                 }
             }
         </style>
@@ -247,13 +266,27 @@
 
             <div class="work" id="work"></div>
 
-            <div class="contact" id="contact"></div>
+            <div class="contact" id="contact">
+                <div class="socials">
+                    <a href="mailto:gadongoro1@gmial.com;"> 
+                        <img src="https://cdn-icons-png.flaticon.com/128/10829/10829119.png" alt="gadongoro1@gmail.com" width="50px"> 
+                    </a>
+    
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" alt="WhatsApp" width="50px">
+    
+                    <img src="https://cdn-icons-png.flaticon.com/128/3488/3488338.png" alt="LinkedIn" width="50px">
+    
+                    <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="Twitter" width="50px">
+    
+                    <img src="https://cdn-icons-png.flaticon.com/128/270/270798.png" alt="GitHub" width="50px">
+                </div>
+            </div>
 
 
         </div>
 
         <div class="footer">
-            <p> &copy Gad Ongoro </p>
+            <p> &copy; Gad Ongoro </p>
         </div>
 
     </body>
