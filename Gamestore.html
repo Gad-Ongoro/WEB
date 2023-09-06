@@ -4,30 +4,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title> Gamestop Ke </title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         body{
             background-image: url('');
+            background: linear-gradient(to bottom right, rgba(45, 227, 240, 0.411), rgba(216, 125, 219, 0.664));
+            height: 100vh;
         }
         h1{
             text-align: center;
+        }
+
+        .games{
+            display: flex;
+        }
+        .race-games-ps4{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .games img{
+            width: 250px;
         }
     </style>
 </head>
     
 <body>
-    <h1> Gamestore</h1>
+    <h1> GameStopKe</h1>
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnDgJ15nzexUXO3WrixSyMn34jfo7WdSq1g&usqp=CAU">
+    <div class="games">
 
-    <form>
-        <select>
-        <option>God Of War</option>
-        <option>Fifa 23</option>
-        <option>Need For Speed Heat</option>
-        </select>
-    </form> <br> <br> <br> <br>
-    <canvas id="myCanvas" width="400" height="200" style="border: 1px solid #000000"> </canvas>
+        <div class="race-games-ps4">
+            <img src="https://media.gamestop.com/i/gamestop/11096443/Need-for-Speed-Heat---PlayStation-4?$plp-tile3x$&fmt=webp" alt="">
+
+            <img src="https://media.gamestop.com/i/gamestop/11162004/Gran-Turismo-7---PlayStation-4?$plp-tile3x$&fmt=webp" alt="">
+
+            <img src="https://media.gamestop.com/i/gamestop/10130934/Gran-Turismo-Sport---PlayStation-4?$plp-tile3x$&fmt=webp" alt="">
+
+            <img src="https://media.gamestop.com/i/gamestop/10121882/Need-for-Speed---PlayStation-4?$plp-tile3x$&fmt=webp" alt="">
+
+            <img src="https://media.gamestop.com/i/gamestop/10109944/Need-for-Speed-Rivals---PlayStation-4?$plp-tile3x$&fmt=webp" alt="">
+
+        </div>
+
+    </div>
 </body>
 </html>
