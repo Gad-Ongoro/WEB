@@ -50,11 +50,11 @@ body{
 }
 
 /* sidebar */
-.sidebar{
+.filters{
     width: 20%;
     float: left;
 }
-.sidebar h4{
+.filters h4{
     padding: 5px;
     margin: 0;
     background-color: rgb(106, 184, 233);
@@ -62,7 +62,7 @@ body{
     top: 0;
     z-index: 1;
 }
-.sidebar ul{
+.filters ul{
     display:flex;
     flex-direction:column;
     list-style-type: none;
@@ -74,19 +74,20 @@ body{
     height:300px;
 }
 
-.sidebar li a{
+.filters li a{
     display: block;
     color: rgb(9, 5, 46);
     text-decoration: none;
     padding: 3px;
 }
-.sidebar li{
+.filters li{
     padding:5px;
 }
-.sidebar li:hover{
+.filters li:hover{
     background-color: rgb(59, 61, 201);
+    color: white;
 }
-.sidebar li a:hover{
+.filters li a:hover{
     color: white;
 }
 
