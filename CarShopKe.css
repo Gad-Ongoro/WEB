@@ -31,8 +31,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.header li.nav:hover{
-    background-color: rgb(150, 150, 240);
+.header li.nav a{
+    transition: all 0.5s;
+}
+.header li.nav:hover a{
+    box-shadow: 0 -6px rgb(255, 0, 140) inset;
 }
 
 .header ul{
