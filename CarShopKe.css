@@ -9,7 +9,6 @@ body{
 
 /* header */
 .header{
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,11 +41,18 @@ body{
     margin:0;
 }
 .header ul li{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: white;
+    height: 30px;
+    width:50px;
 }
 
 /* sidebar */
