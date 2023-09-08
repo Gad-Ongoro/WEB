@@ -68,10 +68,14 @@ body{
     width: 20%;
     float: left;
 }
+.filters::-webkit-scrollbar{
+    scrollbar-width: thin;
+    height: 5px;
+}
 .filters h4{
     padding: 5px;
+    background-color: rgb(125, 170, 255);
     margin: 0;
-    background-color: rgb(106, 184, 233);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -81,9 +85,9 @@ body{
     flex-direction:column;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 10px;
     color:rgb(0, 0, 0);
-    background-color: rgb(157, 188, 255);
+    background-color: rgb(181, 204, 255);
     overflow: auto;
     height:300px;
 }
