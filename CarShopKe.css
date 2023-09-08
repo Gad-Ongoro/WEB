@@ -58,6 +58,11 @@ body{
     width:60px;
 }
 
+/* main */
+.main{
+    width: 100vw;
+}
+
 /* sidebar */
 .filters{
     width: 20%;
@@ -100,8 +105,13 @@ body{
     color: white;
 }
 
-/* main */
+/* posts */
+.posts{
+    display: flex;
+    justify-content: center;
+}
 .posts-div{
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
 }
