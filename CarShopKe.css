@@ -31,6 +31,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.nav-icons{
+    display: none;
+}
 .header li.nav a{
     transition: all 0.5s;
 }
@@ -142,6 +145,13 @@ footer{
     .header .nav-div{
         width: 80%;
         margin-right: 0;
+        display: none;
+    }
+    .nav-icons{
+        display: flex;
+    }
+    .nav-icons img{
+        width:30px;
     }
     .filters{
         display: none;
