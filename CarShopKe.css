@@ -155,7 +155,7 @@ footer{
     }
 }
 @media screen and (max-width: 1000px) {
-    img{
+    .main .posts-div img{
         max-width: 40vw;
     }
 }
