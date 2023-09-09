@@ -6,6 +6,19 @@ body{
     background-color: rgba(171, 171, 224, 0.7);
     margin:0;
 }
+::-webkit-scrollbar{
+    width: 11px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(15, 115, 150);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(15, 115, 150, 0.8);
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(0, 160, 150);
+}
 
 /* header */
 .header{
@@ -71,10 +84,6 @@ body{
     width: 20%;
     float: left;
 }
-.filters::-webkit-scrollbar{
-    scrollbar-width: thin;
-    height: 5px;
-}
 .filters h4{
     padding: 5px;
     background-color: rgb(125, 170, 255);
@@ -92,9 +101,13 @@ body{
     color:rgb(0, 0, 0);
     background-color: rgb(181, 204, 255);
     overflow: auto;
-    height:300px;
 }
-
+.car-model{
+    height: 250px;
+}
+.price{
+    height: 170px;
+}
 .filters li a{
     display: block;
     color: rgb(9, 5, 46);
