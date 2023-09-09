@@ -15,6 +15,16 @@
                 background-color: rgb(10, 20, 70);
                 margin: 0;
             }
+            ::-webkit-scrollbar{
+                width: 12px;
+            }
+            ::-webkit-scrollbar-thumb{
+                background-color: rgb(15, 115, 150);
+                border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb:hover{
+                background-color: rgb(0, 228, 216);
+            }
 
             /* header */
             .header{
@@ -124,6 +134,11 @@
                 display: flex;
                 align-items: center;
                 flex-direction: column;
+            }
+            iframe.my-projects{
+                border-radius: 10px;
+                width:70%;
+                height: 450px;
             }
             
             /* contact */
@@ -295,7 +310,7 @@
 
             <div class="projects" id="projects">
                 <h2> My Projects </h2>
-                <iframe src="CarShopKe.html" frameborder="0" width="80%" height="400px"> CarShop </iframe>
+                <iframe src="CarShopKe.html" class="my-projects" frameborder="0"> CarShop </iframe>
             </div>
 
             <div class="work" id="work"></div>
