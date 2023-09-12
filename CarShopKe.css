@@ -54,6 +54,14 @@ body{
     box-shadow: 0 -6px 0 0 rgb(255, 0, 140) inset;
 }
 
+.nav-icons img{
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.nav-icons img:hover{
+    box-shadow: 0 0 10px 10px rgb(255, 0, 140);
+}
+
 .header ul{
     list-style-type: none;
     padding: 0;
