@@ -9,6 +9,45 @@
             font-family: Arial, sans-serif;
             transition: filter 0.3s;
         }
+        
+        nav{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background-color: rgba(120, 255, 251, 0.5);
+        }
+
+        nav li{
+            margin: 3%;
+            position: relative;
+        }
+        nav li:hover{
+            cursor: pointer;
+        }
+        /*  */
+        nav li::after{
+            content: "";
+            width: 0;
+            height: 5px;
+            background-color: hotpink;
+
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: all 0.5s;
+        }
+        nav li:hover::after{
+            width: 100%;
+        }
+        /*  */
 
         .overlay {
             display: none;
@@ -36,6 +75,17 @@
     <title>Dialog Box Example</title>
 </head>
 <body>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Login</li>
+            <li>LogOut</li>
+        </ul>
+    </nav>
+    
     <button id="openDialog">Open Dialog</button>
     <div id="dialog" class="dialog-box">
         <div class="dialog-content">
